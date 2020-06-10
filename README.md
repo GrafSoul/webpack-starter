@@ -1,6 +1,7 @@
 # Webpack Starter Kit
 
-Webpack starter kit for creating web sites and applications.
+Webpack starter kit for creating web sites and applications.  
+The project is an excellent solution for creating individual projects.
 
 ## Clone, Install, Development & Start
 
@@ -21,14 +22,6 @@ npm run dev
 npm run build
 
 ```
-
-## Project structure
-
-```
-
-```
-
-## Copyright
 
 ## License
 

@@ -4,6 +4,7 @@ module.exports = {
         commonjs: true,
         es6: true,
         node: true,
+        jsx: true,
     },
     extends: 'eslint:recommended',
     globals: {
@@ -15,9 +16,8 @@ module.exports = {
         sourceType: 'module',
     },
     rules: {
-        indent: 4,
-        quotes: 'single',
-        semi: 'always',
-        'no-unused-vars': 'warn',
+        indent: ['error', 4],
+        quotes: ['error', 'single'],
+        semi: ['error', 'always'],
     },
 };
